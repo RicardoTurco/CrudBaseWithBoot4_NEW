@@ -44,7 +44,6 @@ Run the following commands to finish the configurarion:
 (env) > python ./manage.py makemigrations
 (env) > python ./manage.py migrate
 (env) > python ./manage.py createsuperuser
-(env) > python ./manage.py collectstatic
 ```
 
 ## Sample quickstart
