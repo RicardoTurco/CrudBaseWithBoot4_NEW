@@ -12,10 +12,6 @@ To install and execution the aplication in your local machine, you will need to:
 git clone https://github.com/RicardoTurco/CrudBaseWithBoot4_NEW.git && cd CrudBaseWithBoot4_NEW
 
 
-Checkout to DEVELOP branch
-(git checkout develop)
-
-
 Create and activate one "virtualenv"
 (using any valid form) 
 
