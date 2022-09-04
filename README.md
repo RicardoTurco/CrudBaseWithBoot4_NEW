@@ -4,7 +4,7 @@
 
 This is a CRUD base for Python/Django. It relies only in HTML forms and submits to persist data.
 
-## Installation
+## Instalation
 
 To install and execution the aplication in your local machine, you will need to:
 
