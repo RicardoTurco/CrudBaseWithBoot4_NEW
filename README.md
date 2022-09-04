@@ -9,7 +9,7 @@ This is a CRUD base for Python/Django. It relies only in HTML forms and submits 
 To install and execution the aplication in your local machine, you will need to:
 
 ```
-git clone https://github.com/RicardoTurco/DAFITI_backend.git && cd DAFITI_backend
+git clone https://github.com/RicardoTurco/CrudBaseWithBoot4_NEW.git && cd CrudBaseWithBoot4_NEW
 
 
 Checkout to DEVELOP branch
