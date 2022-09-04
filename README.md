@@ -6,56 +6,40 @@ This is a CRUD base for Python/Django. It relies only in HTML forms and submits 
 
 ## Installation
 
-Clone repository:
+To install and execution the aplication in your local machine, you will need to:
 
 ```
-> clone ...
-```
+git clone https://github.com/RicardoTurco/DAFITI_backend.git && cd DAFITI_backend
 
-Create virtual environment:
 
-```
-> virtualenv env
-```
+Checkout to DEVELOP branch
+(git checkout develop)
 
-Activate environment:
 
-(Windows)
-```
-> .\env\Scripts\activate
-```
+Create and activate one "virtualenv"
+(using any valid form) 
 
-(Linux/MAC)
-```
-> source ./env/bin/activate
-```
 
-Install requirements:
+This next 2 steps are OPTIONAL, but HIGH recommended !!!
+a) python -m pip install --upgrade pip
+b) pip install -U setuptools
 
-```
-(env) > pip install -r requirements.txt
-```
 
-## Finish configuration
+Install the dependencies:
+pip install -r requirements.txt
 
-Run the following commands to finish the configurarion:
 
-```
-(env) > python ./manage.py makemigrations
-(env) > python ./manage.py migrate
-(env) > python ./manage.py createsuperuser
-```
+(The commands below are only for creating the database locally  
+and not displaying error messages.)
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
 
-## Sample quickstart
 
-Finally run the server:
+Run the application:
+python manage.py runserver
 
-```
-(env) > python manage.py runserver
-```
 
-And navigate to ```movies``` App address:
-
-```
+Access in your browser:
 http://localhost:8000/movies/
 ```
